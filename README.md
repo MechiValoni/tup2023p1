@@ -3,5 +3,5 @@ Este es el repositorio público de la materia Programación I de la Tecnicatura 
 
 Encontrará una rama por cada año de práctica vigente.
 
-## Autores
+## Autores y Colaboradores
 María Mercedes Valoni
