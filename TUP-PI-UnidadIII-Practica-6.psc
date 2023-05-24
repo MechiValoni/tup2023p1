@@ -13,6 +13,6 @@ Proceso promedioParcial
 	
 	promedioParciales <- sumaNotas/cantAlumnos
 	
-	Escribir "El promedio de notas de los " cantidadAlumnos " alumnos es: " promedioParciales
+	Escribir "El PROMEDIO de notas de los " cantidadAlumnos " alumnos es: " promedioParciales
 
 FinProceso
