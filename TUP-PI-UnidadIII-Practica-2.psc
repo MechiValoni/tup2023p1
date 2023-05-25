@@ -1,11 +1,10 @@
-Proceso dadoLadosDefinirTriangulo
+Algoritmo dadoLadosDefinirTriangulo
 	Definir lado1, lado2, lado3 como Real
 	Definir  ladosFormanTriangulo Como Logico
 	
 	Repetir
 		Escribir "Ingrese los 3 lados de un triangulo"
 		Leer lado1, lado2, lado3
-		Limpiar Pantalla
 		ladosFormanTriangulo <- ((lado1+lado2)>lado3) y ((lado3+lado2)>lado1) y ((lado1+lado3)>lado2)
 		Si no ladosFormanTriangulo Entonces
 			Escribir "Error, los lados ingresados no forman un triangulo"
@@ -22,4 +21,5 @@ Proceso dadoLadosDefinirTriangulo
         Fin Si
     Fin Si
 	
-FinProceso
+FinAlgoritmo
+
