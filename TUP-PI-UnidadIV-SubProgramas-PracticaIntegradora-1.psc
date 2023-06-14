@@ -118,7 +118,7 @@ SubProceso registrarVenta(ventasDiarias,n,m,productosDescripcion,productosPrecio
 	
 	indiceVenta<-indiceVenta+1;
 	Limpiar Pantalla;
-	Escribir "LA VENTA SE A REGISTRADO EXITOSAMENTE!";
+	Escribir "LA VENTA SE HA REGISTRADO EXITOSAMENTE!";
 	Escribir "-----------------------------------";
 FinSubProceso
 
