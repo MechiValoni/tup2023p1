@@ -59,14 +59,14 @@ Algoritmo Unidad4EjercicioIntegrador1
 	
 FinAlgoritmo
 
-//RETORNA UNA OPCION DE MENU V¡LIDA PARA EL PROGRAMA
+//RETORNA UNA OPCION DE MENU V√ÅLIDA PARA EL PROGRAMA
 Funcion return<-menu()
 	Definir opt_menu Como Entero;
 	Repetir
 		Escribir "Elija una opcion correcta: ";
 		Escribir "1. Registrar Venta";
-		Escribir "2. Ver listado de productos ordenados por descripciÛn (sÛlo descripciÛn y cÛdigo)";
-		Escribir "3. Ver resumen del dÌa (debe tener al menos una venta generada)";
+		Escribir "2. Ver listado de productos ordenados por descripci√≥n";
+		Escribir "3. Ver resumen del d√≠a (debe tener al menos una venta generada)";
 		Escribir "4. Salir";
 		Leer opt_menu;
 	Mientras Que (opt_menu<1 o opt_menu>4)
@@ -171,9 +171,9 @@ FinSubProceso
 
 //ORDENAMIENTO ASCENDENTE => ORDENO TODO EL ARRAY POR UNA COLUMNA
 SubProceso ordernarArregloASC(array,n,m,columnaAOrdenar)
-	Definir aux Como Texto; //cambiar el tipo de dato seg˙n el tipo de datos del array
+	Definir aux Como Texto; //cambiar el tipo de dato seg√∫n el tipo de datos del array
 	para i<-0 hasta n-2 Hacer //recorro las filas del array hasta la penultima
-		para k<-i+1 hasta n-1 Hacer //recorro las filas del array hasta la ˙ltima
+		para k<-i+1 hasta n-1 Hacer //recorro las filas del array hasta la √∫ltima
 			si array[i,columnaAOrdenar]>array[k,columnaAOrdenar] Entonces
 				Para j<-0 Hasta m-1 Hacer //recorro las columnas del array
 					aux <- array[i,j];
